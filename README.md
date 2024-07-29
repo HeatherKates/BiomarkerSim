@@ -1,4 +1,4 @@
-# RNAseq, ATACseq, and CUT&RUN Analysis for MSH2 and MLH1 in Tumor Metastasis
+# Testing use of mixed effects model for biomarker measurements improvement
 
 This repository contains scripts related to the development of a mixed effects model to address variability in biomarker measurements for clinical decision making
 
