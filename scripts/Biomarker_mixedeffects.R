@@ -41,3 +41,9 @@ data <- expand.grid(
 # Summarize the first few rows of the data
 head(data)
 
+# Fit the mixed-effects model
+model <- lmer(measurement ~ week + (1 | patient) + (1 | technician), data = data)
+
+# Summarize the model
+summary(model)
+
